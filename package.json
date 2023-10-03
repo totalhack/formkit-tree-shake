@@ -1,0 +1,25 @@
+{
+    "name": "formkit-tree-shake",
+    "version": "0.0.1",
+    "license": "UNLICENSED",
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/output.umd.js",
+    "module": "./dist/output.es.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@formkit/addons": "1.2.1",
+        "@formkit/vue": "1.2.1",
+        "vue": "^3.3.4"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.3.4",
+        "rollup-plugin-analyzer": "^4.0.0",
+        "rollup-plugin-terser": "^7.0.2",
+        "vite": "^4.4.0"
+    }
+}
